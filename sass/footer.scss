@@ -1,0 +1,36 @@
+
+
+.footer {
+    background-color: #343a40;
+    color: $link-hover-color;
+    //padding:1rem 0;
+    ul {
+      list-style: none;
+      margin: 1rem 0;
+      padding: 0;
+      li {
+        font-size: 0.8rem;
+        float: left;
+        position: relative;
+        a,
+        a:visited {
+          display: block;
+          padding: 0 20px;
+          line-height: 55px;
+          background: transparent;
+          color: $link-hover-color;
+          text-decoration: none;
+          border: 1px solid transparent;
+          &:hover {
+            background: $link-hover-color;
+            color: $nav-font-color;
+            border-radius: $radius;
+          }
+          &:not(:only-child):after {
+            padding-left: 4px;
+            content: '\25BE';
+          }
+        } 
+      }
+    }
+  }

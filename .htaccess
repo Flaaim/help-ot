@@ -1,0 +1,41 @@
+RewriteEngine On 
+RewriteBase /
+
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+
+
+
+
+AddDefaultCharset utf-8
+
+RewriteRule ^(404|blog|contacts|contribute|documents|news|subscribe|add|support).html$ index.php?page=$1 [L]
+
+RewriteRule ^type/(prikaz|program|instruction|plan|polozenie|journal|rasporyjenie|napravlenie|zaklychenie|bilety|act|perechen|grafic|prochee|protocol|naryad|checklist).html$ index.php?type=$1 [L]
+
+RewriteRule ^section/(ohrana-truda|pojarnay-bezopastnost|promyshlenaya-bezopastnost|goich|bdd|ecologia|electricalsafety).html$ index.php?doc_section=$1 [L]
+
+RewriteRule ^type/(prikaz|program|instruction|plan|polozenie|journal|rasporyjenie|napravlenie|zaklychenie|bilety|act|perechen|grafic|prochee|protocol|naryad|checklist)/section/(ohrana-truda|pojarnay-bezopastnost|promyshlenaya-bezopastnost|goich|bdd|ecologia|electricalsafety).html$ index.php?type=$1&doc_section=$2 
+
+RewriteRule ^(ohrana-truda|pojarnay-bezopastnost|promyshlenay-bezopastnost|bezopastnost-dorojnogo-dvizenia|ekologia|electro-bezopastnost|safety|all).html$ index.php?category=$1 [L]
+
+RewriteRule ^newssection/(incidents|newdocosandnpa|explanation|supervision).html$ index.php?newssection=$1 [L]
+
+RewriteRule ^news/([A-Za-z0-9-]+).html$ index.php?news=$1 [L]
+
+RewriteRule ^docs/([A-Za-z0-9-]+).html$ index.php?docs=$1 [L]
+
+RewriteRule ^([A-Za-z0-9-]+).html$ index.php?blog=$1 [L]
+
+
+
+
+
+
+RewriteRule ^author/([A-Za-z0-9-]+).html$ index.php?author=$1 [L]
+
+
+
+ErrorDocument 404 /index.php?page=404
+

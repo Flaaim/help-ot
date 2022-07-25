@@ -1,0 +1,158 @@
+.post {
+    font-family: $font;
+    color: #495057;
+    font-weight: 700;
+}
+.post h2 {
+    color: $colorH;
+    font-size: 32px;
+    margin: 0 0 4px 0;
+    padding: 0 0 15px 0;
+    border-bottom: 4px solid $colorH;
+}
+.date{
+    color: $datecolor;
+    padding: 0 25px 0 0;
+    font-size: 14px;
+}
+
+.blog-post h3{
+    margin: 10px 0;
+    padding: 8px 0;
+    line-height: 1.5;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.blog-post h3:hover {
+    border-radius: $radius;
+    background-color: #f1f4f8;
+  }
+
+.show-all {
+    padding: .5rem .6rem;
+    background: $link-hover-color;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #495057;
+    font-weight: 600;
+    font-size: .8rem;
+    border-radius: .3rem;
+    border-bottom: 0;
+    line-height: 1;
+    margin-left: 1rem;
+    margin-top: .5rem;
+  }
+
+.show-all:hover {
+    background: #e1e6ed;
+  }
+
+  .blog-post-article {
+    width: 100%;
+  }
+  .blog-post-article h1 {
+    color: $colorH;
+    font-size: 2.5rem;
+  }
+  .author-date{
+    color: $datecolor;
+    font-size: .9rem;
+    font-weight: 500;
+  }
+  
+  .author-date a {
+    color: #495057;
+    border-width: 0;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .tags {
+    margin: 25px 0;
+    display: inline-block;
+    width: 100%;
+    
+
+
+  }
+  .tags a {
+    float: left;
+    color: #495057;
+    text-decoration: none;
+    background: $link-hover-color;
+    padding: .5rem .6rem;
+    font-size: .8rem;
+    border-radius: .3rem;
+    border-bottom: 0;
+    white-space: nowrap;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0.6rem;
+    word-wrap: break-word;
+    
+  }
+  .article-post {
+    float: left;
+    font-size: 1.125rem;
+    color: #495057;
+    line-height: 1.75;
+    font-weight: 500;
+    width: 100%;
+  }
+  blockquote {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #edf2ff;
+    font-weight: 400;
+    border-radius: .3rem;
+    border-left: 3px solid #5183f5;
+  }
+  .article-post h2 {
+    font-size: 1.75rem;
+    padding-bottom: .5rem;
+    border-bottom: 4px solid $link-hover-color;
+    color: $colorH;
+  }
+  .article-post a {
+    color: $colorH;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 3px solid #b9cdfb;
+  }
+  .article-post a:hover {
+    color: #101010;
+    border-bottom: 3px solid #96b4f9;
+  }
+
+  time{
+    color: #898989;
+    font-size: .7em;
+  }
+
+  time a {
+    
+    border-bottom: 1px solid #b9cdfb!important;
+  }
+
+  .new {
+    
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: .8em;
+    margin-left: 8px;
+  }
+  .support {
+    display: inline-block;
+    
+  }
+  .support a {
+    background-color: #343a40;
+    padding: 0.75rem 1rem;
+    color:#f1f4f8;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+ 

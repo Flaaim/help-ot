@@ -1,0 +1,33 @@
+$font-family: 'Montserrat Alternates', sans-serif;
+$content-width: 1000px;
+$breakpoint: 799px;
+$nav-height: 70px;
+$nav-background: transparent;
+$nav-font-color: #1b1d25;
+$link-hover-color:#f1f4f8;
+$off_background: #f1f3f5;
+$link-active-color: #7a7a7a;
+$font: 'Cuprum', sans-serif;
+$radius: 7px;
+$colorH: #343A40;
+$datecolor: #858b93;
+.ua{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+
+@import 'layout';
+@import 'nav';
+@import 'blog';
+@import 'footer';
+@import 'contactform';
+@import 'author';
+@import 'docs';
+@import 'table';
+@import 'pagination';
+@import 'elements';
+@import 'search'

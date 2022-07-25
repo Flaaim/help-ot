@@ -1,0 +1,17 @@
+.searchResults {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.show {
+    display: flex;
+}
+.hide {
+    display: none;
+}
+.display_search {
+    
+    flex-basis: 50%;
+
+}

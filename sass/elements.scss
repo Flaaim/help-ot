@@ -1,0 +1,29 @@
+.fixedbutton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #495057;
+    cursor: pointer;
+    margin: 0 1rem 1rem 0;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.5rem;
+    color: #495057;
+    border-radius: 10px;
+    display: none;
+}
+
+.fixedbutton:hover{
+    color: #f1f4f8;
+    background-color: #495057;
+}
+
+.showButton{
+    display: block;
+}
+
+.dropFilters{
+    font-size: 16px;
+    border: 3px solid #495057;
+    border-radius: 10px;
+    padding: 3px 10px;
+}

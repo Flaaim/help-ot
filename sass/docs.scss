@@ -1,0 +1,83 @@
+.docs-post{
+    float: left;
+    font-size: 1.125rem;
+    color: #495057;
+    line-height: 1.75;
+    font-weight: 500;
+    width: 100%
+  }
+.downloadlink {
+    color: #495057;
+    font-size: .8em;
+    border-bottom: 1px solid #b9cdfb;
+}
+
+.parametrs {
+    font-size: 1.125rem;
+    padding: 2rem;
+    background: $off_background;
+    border-radius: $radius;
+    line-height: 2;
+    margin: 2rem 0;
+   // word-break: break-word;
+}
+._rowdocumenttype {
+    background: $off_background;
+    border-radius: $radius;
+    margin: 2rem 0;
+}
+._document_type {
+    font-size: 1rem;
+    padding: 1.5rem 1.5em;
+    line-height: 2;
+    
+}
+
+
+  .tabs {
+    width: 100%; 
+    padding: 0px; 
+    margin: 0 auto;
+
+}
+.tabs>input { display: none; }
+
+.tabs>div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    background: #FFFFFF;
+}
+.tabs>label b {
+    font-size: x-small;
+    line-height: 1!important;
+}
+.tabs>label {
+    max-width: 300px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
+}
+.tabs>input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    background: #FFFFFF;
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_5:checked ~ #txt_5,
+#tab_6:checked ~ #txt_6,
+#tab_4:checked ~ #txt_4 { display: block; }
+
+.relevance {
+    color: #cc0033;
+    font-weight: 600;
+}
+
